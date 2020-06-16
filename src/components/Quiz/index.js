@@ -69,11 +69,11 @@ class Quiz extends Component {
 
             : (
               <div className="col-6 offset-3">
-                <h1 className="display-4">Поздравляю!</h1>
-                <p className="lead">Вы ответили на все вопросы, ваш результат - <strong>{this.state.result}</strong></p>
+                <h1 className="display-4">Вітаємо!</h1>
+                <p className="lead">Ви відповіли на всі питання, ваш результат - <strong>{this.state.result}</strong></p>
                 <hr className="my-4" />
                 <p className="lead">
-                  <button className="btn btn-primary btn-lg" onClick={() => { this.start(); }}>Начать заново?</button>
+                  <button className="btn btn-primary btn-lg" onClick={() => { this.start(); }}>Почати знову?</button>
                 </p>
               </div>
             )

@@ -18,9 +18,9 @@ class List extends Component {
       <div className="row">
         <div className="col-6 offset-3">
           <div className="header-quiz">
-            <div className="header-quiz__word">Переведите - <strong>[{this.props.question.word}]</strong></div>
+            <div className="header-quiz__word">Переведіть - <strong>[{this.props.question.word}]</strong></div>
             <div className="header-quiz__question">
-              Вопрос {this.props.current + 1} из {this.props.maxQuestions}
+              Питання {this.props.current + 1}/{this.props.maxQuestions}
             </div>
           </div>
           <ul className="list-quiz list-group mb-2">
